@@ -1,0 +1,21 @@
+h1{
+color: aqua;
+text-align: center;
+padding-top: 250px
+}
+
+
+a.button {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: buttontext;
+    background-color: buttonface;
+    text-decoration: none;
+    font-family: "Comic-Sans";
+}
+
+
+body {
+    background-color: black;
+}
