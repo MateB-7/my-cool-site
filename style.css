@@ -5,16 +5,13 @@ padding-top: 250px
 }
 
 
-a.button {
-    padding: 1px 6px;
-    border: 1px outset buttonborder;
-    border-radius: 3px;
-    color: buttontext;
-    background-color: buttonface;
-    text-decoration: none;
-    font-family: "Comic-Sans";
+.links {
+    text-align: center;
 }
 
+a.button {
+    color:aqua;
+}
 
 body {
     background-color: black;
