@@ -26,3 +26,4 @@ jobs:
           DEPLOY_DIR: '/nekoareo.nekoweb.org'
           CLEANUP: 'False'
           DELAY: '0.5'
+          NEKOWEB_PAGENAME: 'nekoareo'
