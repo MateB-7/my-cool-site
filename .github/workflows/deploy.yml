@@ -12,15 +12,17 @@ jobs:
 
       - name: Debug repo contents
         run: ls -la
+        
+      - name: Debug
+        run: |
+          ls -la ./public
+          ls -la ./build
 
       - name: Prepare build
         run: |
           mkdir -p ./build
           cp -r ./public/. ./build/
-      - name: Debug
-        run: |
-          ls -la ./public
-          ls -la ./build
+   
 
       - name: Deploy to Nekoweb
         uses: mp-pinheiro/nekoweb-deploy@0.3.0
