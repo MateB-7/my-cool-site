@@ -15,7 +15,7 @@ jobs:
           mkdir -p /tmp/build
           shopt -s dotglob
           cp -r ./* /tmp/build/
-          rm -rf /tmp/build/.github
+          rm -rf /tmp/build/.git /tmp/build/.github
           mv /tmp/build ./build
 
       - name: Deploy to Nekoweb
