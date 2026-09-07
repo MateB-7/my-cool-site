@@ -17,7 +17,7 @@ jobs:
         run: |
           mkdir -p ./build
           cp -r ./public/. ./build/
-       - name: Debug
+      - name: Debug
         run: |
           ls -la ./public
           ls -la ./build
