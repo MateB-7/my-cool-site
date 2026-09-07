@@ -23,7 +23,6 @@ jobs:
         with:
           API_KEY: ${{ secrets.NEKOWEB_API_KEY }}
           BUILD_DIR: './build'
-          DEPLOY_DIR: '/nekoareo.nekoweb.org/'
+          DEPLOY_DIR: '/nekoareo.nekoweb.org'
           CLEANUP: 'False'
           DELAY: '0.5'
-          NEKOWEB_PAGENAME: 'nekoareo'
