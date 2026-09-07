@@ -1,0 +1,15 @@
+name: Debug Repo
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: List repo root
+        run: ls -la
+      - name: List recursively (top 3 levels, ignore .git)
+        run: find . -maxdepth 3 -not -path './.git*'
