@@ -1,0 +1,29 @@
+name: Deploy to Nekoweb
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Prepare build
+        run: |
+          mkdir -p /tmp/build
+          shopt -s dotglob
+          cp -r ./* /tmp/build/
+          rm -rf /tmp/build/.git /tmp/build/.github
+          mv /tmp/build ./build
+
+      - name: Deploy to Nekoweb
+        uses: mp-pinheiro/nekoweb-deploy@0.3.0
+        with:
+          API_KEY: ${{ secrets.NEKOWEB_API_KEY }}
+          BUILD_DIR: './build'
+          DEPLOY_DIR: '/nekoareo.nekoweb.org'
+          CLEANUP: 'False'
+          DELAY: '0.5'
+          NEKOWEB_PAGENAME: 'nekoareo'
