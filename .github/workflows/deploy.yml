@@ -27,5 +27,4 @@ jobs:
           DEPLOY_DIR: '/'
           CLEANUP: 'False'
           DELAY: '0.5'
-          NEKOWEB_PAGENAME: 'fairfruit'
-          ENCRYPTION_KEY: ${{ secrets.NEKOWEB_ENCRYPTION_KEY }}
+          NEKOWEB_PAGENAME: 'nekoareo'
