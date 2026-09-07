@@ -11,14 +11,15 @@ padding-top: 250px
 
 a.button {
     color:aqua;
-    background-color: white;
-    border-radius: 10px;
 }
 
 body {
     background-color: black;
-    align-content: center;
     display: block;
+}
+
+#player {
+align-content: center;
 }
 
   
