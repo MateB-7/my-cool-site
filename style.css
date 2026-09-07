@@ -1,5 +1,5 @@
 h1{
-color: blue;
+color: aqua;
 text-align: center;
 padding-top: 250px
 }
@@ -21,12 +21,13 @@ div.links {
 body {
     background-color: black;
     background-image:  url('images/background.png');
-    filter: blur(1px);
 }
 
 iframe {
 display:block;
-background-color:blue;
+align-content: center;
+background-color:aqua;
+padding-left: 250px;
 }
 
 
