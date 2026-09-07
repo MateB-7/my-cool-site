@@ -5,23 +5,29 @@ padding-top: 250px
 }
 
 
-.links {
+div.links {
     text-align: center;
+    display:inline-block;
+    background-color:white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 24px;
 }
 
-a.button {
+#button {
     color:aqua;
 }
 
 body {
     background-color: black;
+    background-image:  url('images/background.png');
+    filter: blur(1px);
 }
 
 iframe {
-align-content: center;
-background-color:blue;
 display:block;
-border-radius:2px;
+background-color:blue;
 }
+
 
   
