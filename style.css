@@ -15,11 +15,14 @@ a.button {
 
 body {
     background-color: black;
-    display: block;
 }
 
-#player {
+iframe {
 align-content: center;
+background-color:blue;
+filter:blur(2px);
+display:block;
+border-radius:5px;
 }
 
   
