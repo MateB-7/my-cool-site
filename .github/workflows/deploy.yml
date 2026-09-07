@@ -16,6 +16,7 @@ jobs:
       - name: Prepare build
         run: |
           mkdir -p ./build
+          mkdir -p ./public/*
           cp -r ./public/* ./build
 
       - name: Deploy to Nekoweb
