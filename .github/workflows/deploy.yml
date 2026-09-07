@@ -17,6 +17,10 @@ jobs:
         run: |
           mkdir -p ./build
           cp -r ./public/. ./build/
+       - name: Debug
+        run: |
+          ls -la ./public
+          ls -la ./build
 
       - name: Deploy to Nekoweb
         uses: mp-pinheiro/nekoweb-deploy@0.3.0
