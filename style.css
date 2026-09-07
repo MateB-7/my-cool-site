@@ -1,17 +1,16 @@
 h1{
 color: aqua;
 text-align: center;
-padding-top: 250px
+padding-top: 200px
 }
 
 
 div.links {
-    text-align: center;
-    display:inline-block;
     background-color:white;
-    border-radius: 5px;
-    padding: 10px;
+    border-radius: 2px;
+    padding: 50px 10px;
     font-size: 24px;
+    display: inline-block;
 }
 
 #button {
@@ -19,15 +18,12 @@ div.links {
 }
 
 body {
-    background-color: black;
-    background-image:  url('images/background.png');
+    background-image: url('images/background.png');
+    background-size: 50%;
 }
 
 iframe {
-display:block;
 align-content: center;
-background-color:aqua;
-padding-left: 250px;
 }
 
 
