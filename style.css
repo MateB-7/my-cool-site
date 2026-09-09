@@ -8,9 +8,12 @@ padding-top: 200px
 div.links {
     background-color:white;
     border-radius: 2px;
-    padding: 50px 10px;
+    padding: 10px 20px;
     font-size: 24px;
-    display: inline-block;
+    display: block;
+    text-align: center;
+    width: fit-content;
+    margin-inline: auto;
 }
 
 #button {
@@ -18,7 +21,7 @@ div.links {
 }
 
 body {
-    background-image: url('images/background.png');
+    background-image: url(images/background.png');
     background-size: 50%;
 }
 
