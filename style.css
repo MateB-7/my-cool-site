@@ -4,6 +4,11 @@ text-align: center;
 padding-top: 200px
 }
 
+h2{
+color: aqua;
+text-align: center;
+}
+
 
 div.links {
     background-color:white;
@@ -21,13 +26,19 @@ div.links {
 }
 
 body {
-    background-image: url(images/background.png');
-    background-size: 50%;
+    background-image: url(images/background.jpg);
+    background-size: 70%;
 }
 
 iframe {
-align-content: center;
+margin-inline: auto;
+display: block;
+background-color: black;
 }
 
+audio{
+    margin-inline: auto;
+    display: block;
+}
 
   
