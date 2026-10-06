@@ -7,3 +7,8 @@ p{
     text-align: left;
     color: aqua;
 }
+
+body {
+    background-image: url(images/spacebg.png);
+    background-size: 70%;
+}
